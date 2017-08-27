@@ -1,0 +1,40 @@
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui">
+      <meta name="HandheldFriendly" content="true">
+      <title>Drive Sharing Link Converter</title>
+      <meta name="description" content="Drive Sharing Link Converter">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Merriweather+Sans">
+      <link rel="shortcut icon" href="/favicon.ico">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.25/css/uikit.min.css">
+      <style>
+        .async-hide{opacity:0!important}
+        html,body{background:#af5e1e}body{font-size:16px}.uk-grid{margin-left:0}.uk-card{min-width:280px;max-width:330px;font-size:.9em;text-align:center;font-family:'Roboto',sans-serif;overflow:hidden}.uk-card-footer{margin-left:-40px;margin-right:-40px;margin-bottom:-40px;padding-top:35px;padding-bottom:3em}h1,h3{font-family:'Merriweather Sans',sans-serif;text-transform:uppercase}h1{font-size:1.1em !important}h3{font-weight:600;font-size:1em !important}.uk-alert{padding-left:40px;padding-right:40px;margin-left:-40px;margin-right:-40px}.uk-alert-none{margin-top:-30px;margin-bottom:-30px;padding-top:3em;padding-bottom:2em;background-color:#fff}small{display:inline-block;margin-bottom:5px}.site-link a{font-family:'Merriweather Sans',sans-serif;text-transform:uppercase;color:#f3f3f3}button{font-size:13px !important}
+        textarea.uk-input{width: 271px; height: 112px; line-height: 18px; padding: 9px 9px 0; background-color: rgba(0,0,0,.02); margin-bottom: 15px;}
+      </style>
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-105324606-1', 'auto');
+        ga('send', 'pageview');
+      </script>
+   </head>
+   <body>
+      <div class="uk-section">
+         <div class="uk-container">
+            <div class="uk-grid uk-flex-center" uk-grid="">
+               <div class="uk-card uk-card-default uk-card-body">
+                  <div id="app">loading…</div>
+               </div>
+            </div>
+            <p class="site-link uk-text-center"><small><a href="https://github.com/demsking/drive-url-converter">GitHub Page</a></small></p>
+         </div>
+      </div>
+      <script src="https://unpkg.com/vue@2.3.4/dist/vue.runtime.min.js"></script>
+      <script src="/converter.js" async="async"></script>
+   </body>
+</html>

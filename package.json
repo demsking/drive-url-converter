@@ -1,0 +1,25 @@
+{
+  "name": "drive-url-converter",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Drive Image Sharing Link Converter",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demsking/drive-url-converter.git"
+  },
+  "keywords": [
+    "drive",
+    "image",
+    "sharing",
+    "url",
+    "converter"
+  ],
+  "author": "Sébastien Demanou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/demsking/drive-url-converter/issues"
+  },
+  "homepage": "https://github.com/demsking/drive-url-converter#readme"
+}
