@@ -56,7 +56,7 @@ const app = new Vue({
       event.stopPropagation()
 
       var input = this.$refs.url
-      var resourceId = input.value.match(/file\/d\/(\w+)\//)[1]
+      var resourceId = input.value.match(/file\/d\/([\w\d_-]+)\//i)[1]
 
       this.output = 'https://drive.google.com/uc?export=view&id=' + resourceId
     }
